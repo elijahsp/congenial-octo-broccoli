@@ -81,7 +81,7 @@ function chartDataWeek(content) {//getting last 7 records
     } catch (error) {
         console.log("error", error);
             console.log(window.location.href);
-            window.location.replace("/login");
+            window.location.replace("/login")
     }
     
     fetch("http://localhost:5500/all", requestOptions)
