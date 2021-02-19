@@ -53,11 +53,7 @@ var requestOptions = {
   body: raw,
   redirect: 'follow'
 };
-<<<<<<< HEAD
-fetch("http://localhost:5500/account", requestOptions)
-=======
 fetch("http://192.168.32.127:5500/account", requestOptions)
->>>>>>> refs/remotes/turnstile-app/master
   .then(response => response.text())
   .then(result => {
     console.log(result)
@@ -84,11 +80,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-<<<<<<< HEAD
-fetch("http://localhost:5500/account", requestOptions)
-=======
 fetch("http://192.168.32.127:5500/account", requestOptions)
->>>>>>> refs/remotes/turnstile-app/master
   .then(response => response.text())
   .then(result => {
     JSON.parse(result)

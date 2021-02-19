@@ -28,11 +28,7 @@ function chartData(content) {//getting all data
         redirect: "follow",
     };
 
-<<<<<<< HEAD
-    fetch("http://localhost:5500/all", requestOptions)
-=======
     fetch("http://192.168.32.127:5500/all", requestOptions)
->>>>>>> refs/remotes/turnstile-app/master
         .then((response) => response.text())
         .then((result) => {
             var testobj = JSON.parse(result);
@@ -134,11 +130,7 @@ function chartDataMonth(content) {//getting lsat 30 records
         redirect: "follow",
     };
 
-<<<<<<< HEAD
-    fetch("http://localhost:5500/all", requestOptions)
-=======
     fetch("http://192.168.32.127:5500/all", requestOptions)
->>>>>>> refs/remotes/turnstile-app/master
         .then((response) => response.text())
         .then((result) => {
             var testobj = JSON.parse(result);
