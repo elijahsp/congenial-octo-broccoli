@@ -30,7 +30,7 @@ export default {
                 redirect: "follow",
             };
 
-            fetch("http://localhost:5500/login", requestOptions)
+            fetch("http://192.168.32.127:5500/login", requestOptions)
                 .then((response) =>{
                 if(response.status!==200)
                 throw new Error(response.status)
