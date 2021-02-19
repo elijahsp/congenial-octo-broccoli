@@ -81,7 +81,6 @@ function chartDataWeek(content) {//getting last 7 records
     } catch (error) {
         console.log("error", error);
             console.log(window.location.href);
-
             window.location.replace("/login");
     }
     
