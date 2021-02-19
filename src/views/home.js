@@ -60,7 +60,7 @@ function chartData(content) {//getting all data
         })
         .catch((error) => {
             console.log("error", error);
-            console.log(window.location.href);
+            console.log(window.location.href)
 
             window.location.replace("/login");
         });
